@@ -25,9 +25,27 @@ body a {
   /* Background */
 
   .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
     background-image: url(../img/background/background-mobile1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  /* Top */
+
+  .top {
+    position: absolute;
+    visibility: hidden;
+    height: 0;
+  }
+
+  .desktopNav {
+    position: absolute;
+    visibility: hidden;
+    height: 0;
   }
 
   /* Sidebar */
@@ -42,6 +60,10 @@ body a {
     bottom: 0;
     transition: all 500ms;
     backdrop-filter: blur(5px);
+  }
+
+  .menuOpen{
+    left: 0;
   }
 
   .sidebar a {
