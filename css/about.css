@@ -1,18 +1,37 @@
 /* Global */
 
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body p {
+  margin-bottom: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
 /* Mobile version */
 
-@media only screen and (max-width:767px) {
-  
-
-
+@media only screen and (max-width: 767px) {
+  .toolbar {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /* Desktop version */
 
-@media only screen and (min-width:768px){
-
-
-  
-
+@media only screen and (min-width: 768px) {
+  .toolbar {
+    display: flex;
+    align-items: center;
+  }
 }
