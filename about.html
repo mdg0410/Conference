@@ -7,11 +7,7 @@
   <title>Conference About Page</title>
   <!--CSS Stylesheet-->
   <link rel="stylesheet" type="text/css" href="./css/about.css"/>
-  
-  <!--Boostrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+  </head>
 
 <body class="body">
   <div class="background">
@@ -19,6 +15,7 @@
       <div class="toggle">
         <button id="closeMenu" type="button" class="close"><img src="./img/Icons/btn-close-white.svg" alt="Button menu close"></button>
         <ul class="menu-items">
+          <li><a class="active" href="./index.html"><h3><b>Levo</b></h3></a></li>
           <li><a class="active" href="./about.html"><span>About</span></a></li>
           <li><a class="active" href="#Program"><span>Program</span></a></li>
           <li><a class="active" href="#Join"><span>Join</span></a></li>
@@ -45,10 +42,16 @@
         <!-- Nav Mobile - Desktop -->
         <div class="desktopNav">
           <div class="logo">
-            <span>LEVO</span>
+            <a hrfe="./index.html">LEVO</a>
           </div>
           <nav>
-
+            <ul class="navbar">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+            </ul>
           </nav>
           <div class="Quotation">
             <button type="button" class="Quotation">Quotation</button>
@@ -58,77 +61,66 @@
       <div class="headline">
         <div class="titleHeadline">
           <h2>"Hello! Artists of the world"</h2>
-          <h1>CREATIVE DESIGN<br>GLOBAL SUMMIT<br>2023</h1>
+          <h1>CREATIVE DESIGN<br>GLOBAL SUMMIT 2023</h1>
         </div>
         <div class="secondHeadline">
           <p>First competitive event Artist-tattoo artist.
             Ecuador's original international convention of artists and tattoo artists that together as a team will capture the craziest designs of your imagination on your body.</p>
         </div>
         <div class="dataHeadline">
-          <p id="data">2023.10.02(MON) ~ 05(FRI)</p>
-          <p id="location">@ Quito Pichincha, Casa de la Cultura</p>
+          <p id="message">Please contact us per Email for any further question<br>about CD Global Summit 2023!</p>
+          <a href="#" id="email">cdsummit2023@cdecuador.org</a>
         </div>
       </div>
     </div>
   </header>
-  <section alt="Main">
-    <div class="containerMain">
-      <h3>Main Program</h3>
-      <div class="line" id="lineMain"></div>
-      <div class="sectionMain">
-        <img src="./img/Icons/lecture_icon.svg" alt="...">
-        <p class="subtitleMain">Lecture</p>
-        <p>Hear words from the founders about terms and conditions for the participants as well as for the pairs to compete.</p>
-      </div>
-      <div class="sectionMain">
-        <img src="./img/Icons/exhibition_icon.svg" alt="...">
-        <p class="subtitleMain">Exhibition</p>
-        <p>We will see some of the best designs created by the artists of the moment.</p>
-      </div>
-      <div class="sectionMain">
-        <img src="./img/Icons/forum_icon.svg" alt="...">
-        <p class="subtitleMain">Form</p>
-        <p>Having the time to contact and quote your designs with professional artists.</p>
-      </div>
-      <div class="sectionMain">
-        <img src="./img/Icons/workshop_icon.svg" alt="...">
-        <p class="subtitleMain">Workshop</p>
-        <p>Try to describe your craziest designs to our paintbrush artists and try to capture it on your body with a needle artist.</p>
-      </div>
-      <div class="sectionMain">
-        <img src="./img/Icons/ignite_icon.svg" alt="...">
-        <p class="subtitleMain">Learn</p>
-        <p>Sign up for our project 'Your body, your canvas' and learn solid basics to get started in the world of needle art.</p>
-      </div>
-      <button type="button" class="btnMain">Join CC Global Summit 2015</button>
-    </div>
-  </section>
 </div>
+  <section alt="Logo">
+    <div class="containerLogo">
+      <h3>CREATIVE DESIGN<br>GLOBAL SUMMIT 2023 Logo</h3>
+      <div class="line" id="lineLogo"></div>
+      <p class="subtitleLogo">The logo of CD Global Summit 2023 was decided<br>through the logo competition from 2 to 7, October.</p>
+    <div class="imagen">
+        <img src="./img/Icons/ignite_icon.svg" alt="Logo Creative Design Gllobal Summit 2023">
+    </div>
+  </div>
+  </section>
   <section>
     <div class="containerFeature">
-      <h3><b>Featured Speakers</b></h3>
+      <h3><b>See the award CD Global Summits<br><span>2023</span></b></h3>
       <div class="line" id="lineFeature"></div>
-      <div class="sectionFeature">
-        <img src="./img/Icons/speaker_01.svg" alt="Speaker1">
-        <div class="infoFeature">
-          <h4><b>Yomico Moreno</b></h4>
-          <p>Yomico Moreno is an acclaimed tattoo artist based in Venezuela who is known for his surreal and hyperreal style.</p>
-          <div class="line" id="lineInfo"></div>
-          <small>His artwork has earned him incredible recognition in both the international and Latin American tattoo community.</small>
-        </div>
+      <p>The award for this first convention Create Design Tattoo is a new Kit SnoopDragon Edicion SnoopDog.</p>
+      <div class="sectionFeature" id="prize1">
+        <div class="infoFeature"></div>
       </div>
-      <div class="sectionFeature">
-        <img class="imgFeature" src="./img/Icons/speaker_02.svg" alt="Speaker2">
-        <div class="infoFeature">
-          <h4><b>Doctor Woo</b></h4>
-          <p>Known as Dr. Woo, he is undoubtedly one of the best tattoo artists for Hollywood stars.</p>
-          <div class="line" id="lineInfo"></div>
-          <small>He has been tattooing since the age of 13 and perfected his technique as a black and gray tattooist with a specialty in fine single needle lines at Shamrock Social Club, Los Angeles.</small>
-        </div>
-      </div>
-      <button type="button" class="btnFeature">MORE<span>▽</span></button>
     </div>
   </section>
+  <section>
+    <div class="sectionPartner">
+      <p>Partner </p>
+      <div class="line" id="lineFeature"></div>
+      <div class="row1">
+        <img src="./img/Icons/mozilla.svg" alt="Icon Mozilla">
+        <img src="./img/Icons/google.svg" alt="Icon google">
+        <img src="./img/Icons/naver.svg" alt="Icon naver">
+      </div>
+      <div class="row2">
+        <img src="./img/Icons/daumkakao.svg" alt="Icon daumkakao">
+        <img src="./img/Icons/airbnb.svg" alt="Icon airbnb">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="sectionFooter">
+      <div class="logoRegister">
+        <p>₯</p>
+        <span>creative<br>Design Ecuador</span>
+      </div>
+      <div class="infoRegister">
+        <p>2015 Creative Design Ecuador<br>Some Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="./js/main.js"></script>
 </body>

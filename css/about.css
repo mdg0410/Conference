@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Global */
 * {
@@ -7,8 +7,11 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body p {
@@ -28,8 +31,10 @@ body a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     height: 100%;
-    background-image: url(../img/background/background-mobile1.jpg);
+    padding: 0;
+    background-image: url(../img/background/aboutBackgroundMobile.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -37,13 +42,13 @@ body a {
   /* Top */
 
   .top {
-    position: absolute;
+    display: none;
     visibility: hidden;
     height: 0;
   }
 
   .desktopNav {
-    position: absolute;
+    display: none;
     visibility: hidden;
     height: 0;
   }
@@ -62,7 +67,7 @@ body a {
     backdrop-filter: blur(5px);
   }
 
-  .menuOpen{
+  .menuOpen {
     left: 0;
   }
 
@@ -102,6 +107,7 @@ body a {
     padding: 1vh;
     overflow: hidden;
   }
+
   /* Headline */
 
   .containerHeadline {
@@ -109,13 +115,12 @@ body a {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 0 20px 0 20px;
-    overflow: hidden;
   }
 
   .toolbar {
     display: flex;
     align-items: center;
+    padding: 0 20px 0 20px;
   }
 
   .hamburguer {
@@ -128,9 +133,10 @@ body a {
   .headline {
     display: flex;
     flex-direction: column;
-    padding: 45px 0 85px 0;
+    align-items: center;
+    padding: 2vh 0 5vh 0;
     gap: 10px;
-    color: #000;
+    color: #272a31;
   }
 
   .titleHeadline {
@@ -139,9 +145,11 @@ body a {
     width: 100%;
     color: #ec5242;
     margin-bottom: 10px;
+    align-items: center;
   }
 
   .titleHeadline h1 {
+    text-align: center;
     font-weight: 900;
     font-size: 38px;
     line-height: 39px;
@@ -150,74 +158,68 @@ body a {
   .secondHeadline {
     display: flex;
     align-items: center;
-    padding: 10px 20px 10px 20px;
+    text-align: center;
+    width: 90%;
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    border: #fff solid 3px;
+    padding: 0 1vh 1.5vh 1vh;
+    background-color: #fff;
+    border: #272a31 solid 1px;
   }
 
-  #data {
-    font-weight: 900;
-    font-size: 38px;
+  .dataHeadline {
+    padding: 1vh 0 0 0;
+    text-align: center;
   }
 
-  #location {
+  #message {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  #email {
+    text-decoration: underline;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
+    color: #272a31;
   }
 
-  /* Main */
+  /* Logo */
 
-  .containerMain {
+  .containerLogo {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 3.5vh 1.5vh 5vh 1.5vh;
-    gap: 1.5vh;
-    color: #fff;
+    padding: 0 0 3vh 0;
+    color: #272a31;
     overflow: hidden;
+    text-align: center;
+    border-bottom: #d6d7da solid 2px;
   }
 
-  .containerMain h3 {
-    color: #ec5242;
-    font-weight: 900;
+  .containerLogo h3 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .containerLogo p {
+    margin-bottom: 2vh;
   }
 
   .line {
     width: 40px;
     height: 2px;
     background-color: #ec5242;
-    margin-bottom: 2vh;
   }
 
-  #lineMain {
-    background-color: #fff;
-  }
-
-  .sectionMain {
-    display: grid;
-    grid-template-columns: 20% 30% 50%;
-    width: 100%;
-    align-items: center;
-    padding: 2vh 0.8vh 2vh 0.8vh;
-    background: rgba(255, 255, 255, 0.1);
-    gap: 1vh;
-  }
-
-  .subtitleMain {
-    font-weight: 900;
-    color: #ec5242;
-  }
-
-  .btnMain {
-    margin-top: 20px;
-    padding: 3vh 5vh 3vh 5vh;
-    background-color: #ec5242;
-    border: #ec5242 solid 1px;
-    color: #fff;
+  .imagen {
+    display: flex;
+    border: #d6d7da solid 2px;
+    border-radius: 1vh;
   }
 
   /* Feature */
@@ -226,56 +228,175 @@ body a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3vh 1.5vh 5vh 1.5vh;
+    padding: 2vh 2vh 0 2vh;
     gap: 10px;
+    text-align: center;
     overflow: hidden;
+    border-bottom: #d6d7da solid 2px;
+    color: #272a31;
+  }
+
+  .containerFeature h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .containerFeature span {
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .containerFeature p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  #prize1 {
+    background-image: url(../img/background/backrgroundAward.jpg);
+  }
+
+  #lineFeature {
+    margin-bottom: 0;
   }
 
   .sectionFeature {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2vh;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    width: 100%;
+    height: 300px;
+    padding: 44px 0 44px 0;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    border: #272a31 solid 1px;
   }
 
   .infoFeature {
     display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 250px;
+    background-image: url(../img/Icons/snoopDragon.png);
+    background-position: center;
+    background-size: cover;
+    border: #272a31 solid 1px;
+  }
+
+  .sectionPartner {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
-  }
-
-  .infoFeature p {
-    font-style: italic;
-    color: #ec5242;
-  }
-
-  #lineInfo {
+    align-items: center;
+    padding: 2vh 2vh 2vh 2vh;
+    gap: 6px;
     background-color: #272a31;
-    width: 20px;
-    margin-bottom: 5px;
   }
 
-  .btnFeature {
+  .sectionPartner p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .row1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
-    padding: 1.5vh 0 1.5vh 0;
-    border: #272a31 solid 1px;
-    background-color: transparent;
+    padding: 2vh 0 1vh 0;
   }
 
-  .btnFeature span {
-    font-weight: 900;
-    margin-left: 5px;
-    color: #ec5242;
+  .row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1vh 0 2vh 0;
+  }
+
+  .sectionFooter {
+    display: flex;
+    align-items: center;
+    padding: 3vh 2vh 4vh 2vh;
+    justify-content: space-evenly;
+  }
+
+  .logoRegister {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+  }
+
+  .logoRegister p {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  .logoRegister span {
+    font-size: 10px;
+  }
+
+  .infoRegister {
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
   }
 }
 
 /* Desktop version */
 
 @media only screen and (min-width: 768px) {
+  /* Background */
+
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(../img/background/background-mobile1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Top */
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 1vh;
+  }
+
+  .mobileNav {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .desktopNav {
+    display: flex;
+    align-items: center;
+  }
+
+  .desktopNav ul {
+    margin-bottom: 0;
+  }
+
+  .navbar li {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Sidebar */
+
+  .sidebar {
+    position: absolute;
+    visibility: hidden;
+  }
+
   /* Headline */
 
   .containerHeadline {
@@ -284,11 +405,6 @@ body a {
     width: 100%;
     height: 100%;
     padding: 0 20px 0 20px;
-    background-image: url(../img/background/headlineBackground-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
   }
 
   .toolbar {
@@ -355,9 +471,6 @@ body a {
     height: 100%;
     padding: 3.5vh 1.5vh 5vh 1.5vh;
     gap: 1.5vh;
-    background-image: url(../img/background/mainBackground-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;
   }
 
