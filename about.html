@@ -4,24 +4,125 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Steven Portfolio Home Page</title>
+  <title>Conference About Page</title>
   <!--CSS Stylesheet-->
-  <link rel="stylesheet" type="text/css" href="about.css"/>
-
-  <!--Boostrap-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
+  <link rel="stylesheet" type="text/css" href="./css/about.css"/>
+  </head>
 
 <body class="body">
+  <div class="background">
+    <div class="sidebar" id="sideBar">   <!--Menu-->
+      <div class="toggle">
+        <button id="closeMenu" type="button" class="close"><img src="./img/Icons/btn-close-white.svg" alt="Button menu close"></button>
+        <ul class="menu-items">
+          <li><a class="active" href="./index.html"><h3><b>Levo</b></h3></a></li>
+          <li><a class="active" href="./about.html"><span>About</span></a></li>
+          <li><a class="active" href="#Program"><span>Program</span></a></li>
+          <li><a class="active" href="#Join"><span>Join</span></a></li>
+          <li><a class="active" href="#News"><span>News</span></a></li>
+          <li><a class="active" href="#Quotation"><span>Quotation</span></a></li>
+        </ul>
+    </div>
+  </div>
   <header>
-    <div class="toolbar">
-
+    <div class="containerHeadline">
+      <div class="top">
+        <a href="https://www.facebook.com/E3Expo/"><img src="img/facebook.svg" alt="facebook"></a>
+        <a href="https://twitter.com/e3"><img src="img/twitter.svg" alt="twitter"></a>
+        <a class="linkTop" href="">English</a>
+        <a class="linkTop" href="">My Page</a>
+        <a class="linkTop" href="">Logout</a>
+      </div>
+      <div class="toolbar">
+        <div class="mobileNav">
+          <nav>
+            <button type="button" class="hamburguer">&#9776;</button>
+          </nav>
+        </div>
+        <!-- Nav Mobile - Desktop -->
+        <div class="desktopNav">
+          <div class="logo">
+            <a hrfe="./index.html">LEVO</a>
+          </div>
+          <nav>
+            <ul class="navbar">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+            </ul>
+          </nav>
+          <div class="Quotation">
+            <button type="button" class="Quotation">Quotation</button>
+          </div>
+        </div>
+      </div>
+      <div class="headline">
+        <div class="titleHeadline">
+          <h2>"Hello! Artists of the world"</h2>
+          <h1>CREATIVE DESIGN<br>GLOBAL SUMMIT 2023</h1>
+        </div>
+        <div class="secondHeadline">
+          <p>First competitive event Artist-tattoo artist.
+            Ecuador's original international convention of artists and tattoo artists that together as a team will capture the craziest designs of your imagination on your body.</p>
+        </div>
+        <div class="dataHeadline">
+          <p id="message">Please contact us per Email for any further question<br>about CD Global Summit 2023!</p>
+          <a href="#" id="email">cdsummit2023@cdecuador.org</a>
+        </div>
+      </div>
     </div>
   </header>
+</div>
+  <section alt="Logo">
+    <div class="containerLogo">
+      <h3>CREATIVE DESIGN<br>GLOBAL SUMMIT 2023 Logo</h3>
+      <div class="line" id="lineLogo"></div>
+      <p class="subtitleLogo">The logo of CD Global Summit 2023 was decided<br>through the logo competition from 2 to 7, October.</p>
+    <div class="imagen">
+        <img src="./img/Icons/ignite_icon.svg" alt="Logo Creative Design Gllobal Summit 2023">
+    </div>
+  </div>
+  </section>
+  <section>
+    <div class="containerFeature">
+      <h3><b>See the award CD Global Summits<br><span>2023</span></b></h3>
+      <div class="line" id="lineFeature"></div>
+      <p>The award for this first convention Create Design Tattoo is a new Kit SnoopDragon Edicion SnoopDog.</p>
+      <div class="sectionFeature" id="prize1">
+        <div class="infoFeature"></div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="sectionPartner">
+      <p>Partner </p>
+      <div class="line" id="lineFeature"></div>
+      <div class="row1">
+        <img src="./img/Icons/mozilla.svg" alt="Icon Mozilla">
+        <img src="./img/Icons/google.svg" alt="Icon google">
+        <img src="./img/Icons/naver.svg" alt="Icon naver">
+      </div>
+      <div class="row2">
+        <img src="./img/Icons/daumkakao.svg" alt="Icon daumkakao">
+        <img src="./img/Icons/airbnb.svg" alt="Icon airbnb">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="sectionFooter">
+      <div class="logoRegister">
+        <p>₯</p>
+        <span>creative<br>Design Ecuador</span>
+      </div>
+      <div class="infoRegister">
+        <p>2015 Creative Design Ecuador<br>Some Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 
-
-  <script src="./js/mediaQuery.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

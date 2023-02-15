@@ -7,7 +7,7 @@
   <title>Conference Home Page</title>
   <!--CSS Stylesheet-->
   <link rel="stylesheet" type="text/css" href="./css/index.css"/>
-
+  
   <!--Boostrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -15,10 +15,51 @@
 
 <body class="body">
   <div class="background">
+    <div class="sidebar" id="sideBar">   <!--Menu-->
+      <div class="toggle">
+        <button id="closeMenu" type="button" class="close"><img src="./img/Icons/btn-close-white.svg" alt="Button menu close"></button>
+        <ul class="menu-items">
+          <li><a class="active" href="./about.html"><span>About</span></a></li>
+          <li><a class="active" href="#Program"><span>Program</span></a></li>
+          <li><a class="active" href="#Join"><span>Join</span></a></li>
+          <li><a class="active" href="#News"><span>News</span></a></li>
+          <li><a class="active" href="#Quotation"><span>Quotation</span></a></li>
+        </ul>
+    </div>
+  </div>
   <header>
     <div class="containerHeadline">
+      <div class="top">
+        <a href="https://www.facebook.com/E3Expo/"><img src="img/facebook.svg" alt="facebook"></a>
+        <a href="https://twitter.com/e3"><img src="img/twitter.svg" alt="twitter"></a>
+        <a class="linkTop" href="">English</a>
+        <a class="linkTop" href="">My Page</a>
+        <a class="linkTop" href="">Logout</a>
+      </div>
       <div class="toolbar">
+        <div class="mobileNav">
+          <nav>
+            <button type="button" class="hamburguer">&#9776;</button>
+          </nav>
+        </div>
         <!-- Nav Mobile - Desktop -->
+        <div class="desktopNav">
+          <div class="logo">
+            <span>LEVO</span>
+          </div>
+          <nav>
+            <ul class="navbar">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+            </ul>
+          </nav>
+          <div class="Quotation">
+            <button type="button" class="Quotation">Quotation</button>
+          </div>
+        </div>
       </div>
       <div class="headline">
         <div class="titleHeadline">
@@ -95,7 +136,7 @@
     </div>
   </section>
 
-<script src="./js/mediaQuery.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
