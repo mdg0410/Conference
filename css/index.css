@@ -29,7 +29,7 @@ body button {
 /* Line */
 .line {
   width: 40px;
-  height: 1px;
+  height: 2px;
   background-color: #ec5242;
 }
 
@@ -647,6 +647,7 @@ body button {
   }
 
   .containerFeature h3 {
+    font-size: 22px;
     margin-bottom: 2vh;
     margin-top: 0;
   }
