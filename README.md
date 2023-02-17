@@ -1,5 +1,9 @@
 <a name="readme-top"></a>
 
+<div align="center">
+  <img src="./img/Icons/logo.png" alt="logo" width="50%"  height="auto" />
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -22,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Mobile First<a name="about-project"></a>
+# 📖 Conferece Tattoo<a name="about-project"></a>
 
 
 **Conference Tattoo** in this project we focused on taking advantage of all the knowledge acquired in the first module of the Microverse program.
@@ -56,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Open the live-demo of the project
+**Open the live-demo of the project**
 - [Live Demo Link](https://mdg0410.github.io/Conference/) 👈
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
