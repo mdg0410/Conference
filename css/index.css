@@ -166,7 +166,7 @@ body button {
     margin-top: 1vh;
     margin-bottom: 0;
     font-weight: 900;
-    font-size: 38px;
+    font-size: 44px;
     line-height: 38px;
   }
 
@@ -227,19 +227,19 @@ body button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3vh 1vh 3vh 1vh;
+    padding: 3vh 2vh 3vh 2vh;
     gap: 2vh;
     overflow: hidden;
   }
 
   .sectionMain {
     display: grid;
-    grid-template-columns: 25% 25% auto;
+    grid-template-columns: 25% 20% auto;
     width: 100%;
     align-items: center;
     justify-content: center;
-    padding: 1vh 0 1vh 0;
-    background: rgba(255, 255, 255, 0.1);
+    padding: 1vh 1vh 1vh 0;
+    background: rgba(78, 78, 78, 0.758);
     gap: 1vh;
   }
 
@@ -252,6 +252,7 @@ body button {
 
   .subtitleMain {
     font-weight: 900;
+    font-size: 17px;
     color: #ec5242;
   }
 
@@ -278,6 +279,8 @@ body button {
   .containerFeature h3 {
     margin-bottom: 2vh;
     margin-top: 0;
+    font-size: 24px;
+    font-weight: 300;
   }
 
   .containerSF {
@@ -286,7 +289,7 @@ body button {
     align-items: center;
     justify-content: center;
     padding: 3vh 2vh 0 2vh;
-    gap: 2vh;
+    gap: 6vh;
   }
 
   .sectionFeature {
@@ -306,6 +309,8 @@ body button {
   .infoFeature h4 {
     margin-top: 0;
     margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 500;
   }
 
   .infoFeature p {
@@ -318,7 +323,7 @@ body button {
     align-items: center;
     justify-content: center;
     width: 96%;
-    margin: 3vh 0 0 0;
+    margin: 6vh 0 0 0;
     padding: 1.5vh 0 1.5vh 0;
     border: #272a31 solid 1px;
     background-color: transparent;
@@ -333,64 +338,12 @@ body button {
 
   /* Partner */
   .sectionPartner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2vh 2vh 2vh 2vh;
-    gap: 6px;
-    background-color: #272a31;
-  }
-
-  .sectionPartner p {
-    font-size: 25px;
-    font-weight: 700;
-    color: #fff;
-  }
-
-  .row1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    padding: 2vh 0 1vh 0;
-  }
-
-  .row2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    padding: 1vh 0 2vh 0;
+    display: none;
   }
 
   /* Footer */
   .sectionFooter {
-    display: flex;
-    align-items: center;
-    padding: 3vh 2vh 3vh 2vh;
-    justify-content: space-evenly;
-  }
-
-  .logoRegister {
-    display: flex;
-    align-items: center;
-    gap: 1vh;
-  }
-
-  .logoRegister p {
-    font-size: 30px;
-    font-weight: 700;
-    margin-top: 0;
-  }
-
-  .logoRegister span {
-    font-size: 10px;
-  }
-
-  .infoRegister {
-    display: flex;
-    align-items: flex-start;
-    font-size: 12px;
+    display: none;
   }
 }
 
@@ -602,16 +555,17 @@ body button {
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
     justify-content: center;
-    padding: 0 1vh 0 1vh;
-    gap: 1%;
+    padding: 0 10vh 0 10vh;
+    gap: 1vh;
   }
 
   .sectionMain {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 2vh 1vh 2vh 1vh;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(78, 78, 78, 0.758);
     gap: 1vh;
     font-size: 18px;
   }
@@ -655,7 +609,7 @@ body button {
     display: grid;
     grid-template-columns: auto auto;
     gap: 2vh;
-    padding: 2vh 3vh 2vh 3vh;
+    padding: 2vh 8vh 2vh 8vh;
   }
 
   .sectionFeature {
@@ -722,14 +676,19 @@ body button {
 
   /* Footer */
   .sectionFooter {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% auto;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 2vh 0 2vh 0;
+    justify-content: center;
+    padding: 6vh 0 6vh 0;
+    gap: 3vh;
+    background-color: #fff;
+    color: #272a31;
   }
 
   .logoRegister {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 1vh;
   }
@@ -741,14 +700,17 @@ body button {
   }
 
   .logoRegister span {
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 900;
   }
 
   .infoRegister {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    width: 80%;
+    padding: 0 8vh 0 0;
     font-size: 12px;
     font-weight: 700;
+    gap: 1vh;
   }
 }

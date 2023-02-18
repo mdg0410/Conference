@@ -1,5 +1,6 @@
 const containerSpeakers = document.querySelector('.containerSF');
 const smallDevice = window.matchMedia('(max-width: 767px)');
+const footer = document.querySelector('.infoRegister');
 
 const speakers = [
   {
@@ -66,6 +67,11 @@ function handleDeviceChange(e) {
     for (let i = 0; i < 6; i += 1) {
       addSpeaker(i);
     }
+    footer.innerHTML = '';
+    footer.innerHTML = `
+      <p>2023 Creative Design Ecuador. Some Rights Reserved.</p>
+      <p>Sold and fulfilled by FastSpring - an authorized reseller. Bright Market (dba FastSpring), 801 Garden St., Santa Barbara, CA 93101, is the authorized reseller of our products and services on PrivacyPolicies.com</p>
+    `;
   }
 }
 

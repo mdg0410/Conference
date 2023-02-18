@@ -208,23 +208,23 @@ body button {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 4vh 0 3vh 0;
+    padding: 6vh 0 6vh 0;
     color: #272a31;
     text-align: center;
-    background: rgba(210, 206, 206, 0.1);
     border-bottom: #d6d7da solid 2px;
   }
 
   .containerLogo h3 {
     margin-top: 0;
     margin-bottom: 1vh;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
+    line-height: 3.5vh;
   }
 
   .containerLogo p {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    padding: 3vh 4vh 5vh 4vh;
+    line-height: 3vh;
   }
 
   .imagen {
@@ -245,14 +245,14 @@ body button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4vh 0 4vh 0;
+    padding: 6vh 0 3vh 0;
     text-align: center;
     border-bottom: #d6d7da solid 2px;
     color: #272a31;
   }
 
   .containerFeature h3 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 1vh;
     margin-top: 0;
@@ -264,10 +264,18 @@ body button {
   }
 
   .containerFeature p {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    padding: 2vh 4vh 5vh 4vh;
     font-size: 15px;
     font-weight: 500;
+    line-height: 3vh;
+  }
+
+  .containerImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 
   .sectionFeature {
@@ -275,15 +283,15 @@ body button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 85%;
+    margin-bottom: 4vh;
     border: #272a31 solid 1px;
     overflow: hidden;
   }
 
   .sectionFeature img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
-    height: 350px;
   }
 
   /* Partner */
@@ -291,9 +299,9 @@ body button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2vh 2vh 2vh 2vh;
+    padding: 6vh 2vh 6vh 2vh;
     gap: 6px;
-    background-color: #272a31;
+    background-color: #272a31dc;
   }
 
   .sectionPartner p {
@@ -322,7 +330,7 @@ body button {
   .sectionFooter {
     display: flex;
     align-items: center;
-    padding: 3vh 2vh 3vh 2vh;
+    padding: 4vh 2vh 4vh 2vh;
     justify-content: space-evenly;
   }
 
@@ -334,12 +342,13 @@ body button {
 
   .logoRegister p {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 0;
   }
 
   .logoRegister span {
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 900;
   }
 
   .infoRegister {
@@ -489,10 +498,7 @@ body button {
   }
 
   .titleHeadline h2 {
-    font-size: 30px;
-    font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 0;
+    display: none;
   }
 
   .titleHeadline h1 {
@@ -545,7 +551,6 @@ body button {
     color: #272a31;
     overflow: hidden;
     text-align: center;
-    background: rgba(210, 206, 206, 0.1);
     border-bottom: #d6d7da solid 2px;
   }
 
@@ -579,10 +584,9 @@ body button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6vh 0 6vh 0;
+    padding: 6vh 0 8vh 0;
     text-align: center;
     overflow: hidden;
-    border-bottom: #d6d7da solid 2px;
     color: #272a31;
   }
 
@@ -607,13 +611,20 @@ body button {
     font-weight: 500;
   }
 
+  .containerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 3%;
+  }
+
   .sectionFeature {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 500px;
     border: #272a31 solid 1px;
     overflow: hidden;
   }
@@ -625,49 +636,24 @@ body button {
 
   /* Partner */
   .sectionPartner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 2vh 0 2vh 0;
-    background-color: #272a31;
-  }
-
-  .sectionPartner p {
-    font-size: 25px;
-    font-weight: 700;
-    color: #fff;
-    margin-bottom: 1vh;
-    margin-top: 2vh;
-  }
-
-  .row1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 3vh;
-  }
-
-  .row2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    padding-bottom: 1vh;
-    margin-bottom: 2vh;
+    display: none;
   }
 
   /* Footer */
   .sectionFooter {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% auto;
     align-items: center;
-    justify-content: space-evenly;
-    padding: 2vh 0 2vh 0;
+    justify-content: center;
+    padding: 6vh 0 6vh 0;
+    gap: 3vh;
+    background-color: #191a1ae8;
+    color: #fff;
   }
 
   .logoRegister {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 1vh;
   }
@@ -679,14 +665,16 @@ body button {
   }
 
   .logoRegister span {
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 900;
   }
 
   .infoRegister {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 8vh 0 0;
     font-size: 12px;
     font-weight: 700;
+    gap: 1vh;
   }
 }
