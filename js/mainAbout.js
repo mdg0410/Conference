@@ -19,6 +19,11 @@ function handleDeviceChange(e) {
       <p>2023 Creative Design Ecuador. Some Rights Reserved.</p>
       <p>Sold and fulfilled by FastSpring - an authorized reseller. Bright Market (dba FastSpring), 801 Garden St., Santa Barbara, CA 93101, is the authorized reseller of our products and services on PrivacyPolicies.com</p>
     `;
+  } else {
+    footer.innerHTML = '';
+    footer.innerHTML = `
+    <p>2023 Creative Design Ecuador<br>Some Rights Reserved.</p>
+    `;
   }
 }
 
