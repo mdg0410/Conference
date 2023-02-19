@@ -302,7 +302,7 @@ body button {
   .descript p {
     font-size: 28px;
     font-weight: 700;
-    color:#fff;
+    color: #fff;
     margin-top: 5vh;
     margin-bottom: 0;
   }
@@ -310,7 +310,7 @@ body button {
   .descript span {
     font-size: 18px;
     font-weight: 700;
-    color:#fff;
+    color: #fff;
   }
 
   #conventionEcuador {
@@ -674,13 +674,13 @@ body button {
   .descript p {
     font-size: 30px;
     font-weight: 900;
-    color:#fff;
+    color: #fff;
   }
 
   .descript span {
     font-size: 20px;
     font-weight: 900;
-    color:#fff;
+    color: #fff;
   }
 
   #conventionEcuador {
@@ -693,7 +693,7 @@ body button {
     background-image: url(../img/Icons/snoopDragon1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y:center;
+    background-position-y: center;
   }
 
   /* Partner */
