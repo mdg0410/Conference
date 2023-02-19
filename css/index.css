@@ -570,6 +570,11 @@ body button {
     font-size: 18px;
   }
 
+  .sectionMain:hover {
+    border: #ec5242 solid 1px;
+    border-radius: 3px;
+  }
+
   .subtitleMain {
     font-weight: 900;
     color: #ec5242;

@@ -284,15 +284,47 @@ body button {
     align-items: center;
     justify-content: center;
     width: 85%;
+    height: 30vh;
     margin-bottom: 4vh;
     border: #272a31 solid 1px;
     overflow: hidden;
   }
 
-  .sectionFeature img {
-    object-fit: fill;
+  .descript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100%;
+    background-color: rgba(247, 6, 6, 0.3);
   }
+
+  .descript p {
+    font-size: 28px;
+    font-weight: 700;
+    color:#fff;
+    margin-top: 5vh;
+    margin-bottom: 0;
+  }
+
+  .descript span {
+    font-size: 18px;
+    font-weight: 700;
+    color:#fff;
+  }
+
+  #conventionEcuador {
+    background-image: url(../img/background/Convention.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #prize1 {
+    background-image: url(../img/Icons/snoopDragon1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 
   /* Partner */
   .sectionPartner {
@@ -615,7 +647,7 @@ body button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 80%;
     gap: 3%;
   }
 
@@ -624,14 +656,44 @@ body button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+    height: 35vh;
     border: #272a31 solid 1px;
     overflow: hidden;
   }
 
-  .sectionFeature img {
-    object-fit: cover;
+  .descript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 100%;
+    background-color: rgba(247, 6, 6, 0.3);
+  }
+
+  .descript p {
+    font-size: 30px;
+    font-weight: 900;
+    color:#fff;
+  }
+
+  .descript span {
+    font-size: 20px;
+    font-weight: 900;
+    color:#fff;
+  }
+
+  #conventionEcuador {
+    background-image: url(../img/background/Convention.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #prize1 {
+    background-image: url(../img/Icons/snoopDragon1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
   }
 
   /* Partner */
