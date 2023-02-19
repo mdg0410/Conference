@@ -51,12 +51,20 @@
     <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
     <li><a href="https://www.geeksforgeeks.org/dom-document-object-model/">DOM</a>
     </li>
-    <li><a href="">Review project</a>
-    </li> 
   </ul>
 </details>
 
 <!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Use responsive UX design]**
+- **[Use fluid grid system]**
+- **[Accesibility]**
+- **[Webside dynamic]**
+
+>
+<p align="right">(<a href="https://www.loom.com/share/79b7abad3cc24e01a369c7ca7f6857b3">Main features of the project in video</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
